@@ -1,0 +1,54 @@
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: 300px;
+}
+
+.sidenav .mat-toolbar {
+    background: inherit;
+    font-weight: 300;
+}
+
+.mat-toolbar {
+    position: sticky;
+    background-color: transparent;
+    top: 0;
+    z-index: 1;
+
+    a,
+    a:focus,
+    a:visited {
+        color: var(--grey-shade);
+        text-decoration: none;
+        transition: color 0.15s ease-in-out;
+    }
+
+    a:hover {
+        color: var(--primary);
+    }
+}
+
+.mat-nav-list a {
+    transition: background-color 0.15s ease-in-out;
+}
+
+.mat-nav-list .active-list-item {
+    background: var(--grey-light);
+    color: var(--primary);
+}
+
+.toggle-button {
+    margin: 16px 0 0 16px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mat-toolbar .domain {
+    color: var(--grey-base);
+}
+
+.mat-toolbar .title-house-name {
+    color: var(--primary);
+}
